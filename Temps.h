@@ -2,15 +2,12 @@
 
 class Temps
 {
-public:
-	Temps();
-    void init();
-
-	
-
-private:
-    void printMenu();
-    void getUserOption();
-    void processOption();
-	
+    public:
+        Temps();
+        void init();
+        
+    private:
+        void printMenu();
+        int getUserOption();
+        void processUserOption(int userOption);
 };
